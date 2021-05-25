@@ -1,0 +1,89 @@
+html {
+  background-color:whitesmoke;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+.headbanner{
+  display: grid;
+  grid-template-areas: 
+  'banner greenclean'
+  ; 
+  background-color: rgb(54, 150, 54);
+  }
+  .banner{
+grid-area: banner;
+height: 300px;
+  }
+  .greenclean{
+   
+    grid-area: greenclean;
+    color: blue;
+    font-size: 70px;
+    font-style: italic ;
+   align-self: center;
+    }
+     nav {
+    display: flex;
+    justify-content: space-around;
+    background-color:rgb(12, 12, 158);
+    padding: 15px;
+  
+    font-style: italic;
+  }
+  @media only screen and (max-width: 650px) {
+    .headbanner{
+    grid-template-areas:
+      "banner"
+      "greenclean" ;
+  }
+}
+  nav a {
+    color: white;
+    font-weight: bold;
+  }
+  /* Table Styles */
+  table {
+    border-collapse: collapse;
+  }
+  thead,
+  tfoot {
+    background-color: #c1cde6;
+  }
+  td,
+  th {
+    border: 1px solid #dddddd;
+    padding: 4px
+  }
+  tbody th {
+    color: #0a5f1c;
+  }
+ .meganimg {
+   width: 200px;
+   height: 245px;
+   float:left;
+   margin-right: 15px;
+ }
+ 
+ div.a {
+  font-size: 15px;
+}
+p,ol {
+  font-size: larger;
+}
+.footer{
+  width:100%;
+  position:fixed;
+  bottom:0px;
+}
+
+img {
+  border: 2px solid #C0C0C0;
+  padding: 5px;
+}
+ 
+ #content {height: 50px; background-color: rgb(54, 150, 54);}
+ #footer {
+   position:fixed;
+height:50px;background:red; width:100%; }
+ 
+
+ 
